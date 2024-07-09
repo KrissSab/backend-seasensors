@@ -11,3 +11,5 @@
 - install packages: ***npm install***
 - run redis: ***sudo service redis-server start***
 - run project: ***run dev start***
+## P.S
+- sensors when application close saves to redis, if sensors lost and you want to generate new, just change if statement in ***loadSensorsFromRedis()*** in ***sensor.service.ts*** if(sensorData) to if(!sensorData) (I'll fix it in future😊)
