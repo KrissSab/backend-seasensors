@@ -6,3 +6,8 @@
 - position, water speed and water speed cant be manage by user, it increments/decrements by preset value, for simulationg real situation
 - thruster speed can be manage by user ***(@Post /sensor/{name}/thruster )***
 - sensor data updates every second and sents to client side by websockets
+## Start project:
+- copy repo
+- install packages: ***npm install***
+- run redis: ***sudo service redis-server start***
+- run project: ***run dev start***
